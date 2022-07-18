@@ -12,37 +12,66 @@
 
 <body>
     <section class="maindiv">
-        <div class="container-fluid">
-            <h1 class="text-white text-center">The Nature Lovers</h1>
-            <div class="row">
-                <div class="col-md-12">
-                    <nav class="navbar navbar-light">
-                        <a class="navbar-brand text-white" href="#">Natures</a>
-                        <ul class="nav">
-                            <li class="nav-item"><a class="nav-link text-white" href="">Home</a></li>
-                            <li class="nav-item"><a class="nav-link text-white"  href="">Services</a></li>
-                            <li class="nav-item"><a  class="nav-link text-white" href="">About</a></li>
-                            <li class="nav-item"><a  class="nav-link text-white" href="">Contact</a></li>
-                        </ul>
-                      </nav>
-                </div>
+        <h1 class="text-center text-white">
+THE NATURE LOVERS
+        </h1>
+       <ul class="nav nav-pills">
+        <li class="nav-item active"><a data-bs-toggle="pill" href="#home" class="nav-link text-white">HOME</a></li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">ABOUT US</a>
+            <div class="dropdown-menu">
+                <label class="text-success">Who we Are</label>
+                <a class="dropdown-item" href="#">Our People</a>
+                <a class="dropdown-item" href="#">Our Science</a>
+                <div class="dropdown-divider"></div>
+                <label class="text-success">Where We Work</label>
+                <a class="dropdown-item" href="#">India</a>
+                <a class="dropdown-item" href="#">Africa</a>
+                <a class="dropdown-item" href="#">Asia</a>
+                <a class="dropdown-item" href="#">Canada</a>
             </div>
-        </div>
+        </li>
+        <li class="nav-item">
+            <a href="#mycontent" data-bs-toggle="pill" class="nav-link text-white">NATURES</a>
+        </li>
+        <li class="nav-item">
+            <a href="#mycontact" data-bs-toggle="pill" class="nav-link text-white">CONTACT US</a>
+        </li>
+       </ul>
     </section>
-<section class="content">
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-6">
-            <label class="lead">Trees</label>
-            <img src="./Images/trees-3822149__340.jpg" alt="tress" width="100%">
-            <blockquote class="lead">Trees give us many benefits. Trees are the green cover of the planet. Trees need water, sunshine and air to grow. The process of photosynthesis that occurs in trees, that helps them grow, uses oxygen and gives out carbon-dioxide. Thus, they contribute to the oxygen in the air that we need to breathe to stay alive. They also use up the carbon-dioxide that is present in the air, and thus prevent the accumulation of the greenhouse gas that leads to global warming and climate change.</blockquote>
-        </div>
-        <div class="col-6">
-            <label class="lead">Mountains</label>
-            <img src="./Images/mountains-1412683__340.webp"" alt="mountains" width="100%">
-            <blockquote class="lead">Nature refers to the natural resources and natural surroundings. The life species in nature are interrelated and create balance in nature. They form a natural food chain through which energy is passed to all the species. The series of organisms in which each organism feeds on the one below it in the sequence is called the food chain in natural ecosystem. Food chain includes several plants, organisms, animals and other living species. This natural food chain is the source of energy for the forest species. The energy is passed from one creature to the other which helps them grow and survive.</blockquote>
-        </div>
-</div>
+<section class="tab-content">
+    <div id="home" class="tab-pane fade">
+        <h3 class="text-danger text-center">HOME</h3>
+        <blockquote class="lead">Asked to give their favourite views, Britons tend to put natural heritage before buildings and cityscapes. Yes, Brits favour views of Wales’ Gower Peninsula and Northern Ireland’s Mountains of Mourne over sights like Waterloo Bridge, Blackpool Tower and Stonehenge.
+
+            Not even the poet William Wordsworth put people off voting for the “long, stern and desolate" views of Cumbria’s Wastwater and its scree slopes to the Scafell peaks as Britain’s favourite.
+            
+            Dramatic landscapes fire our imagination, fill our hearts and put our lives into perspective. But everyday experiences of nature give us a boost too. It’s like having our very own free Natural Health Service.</blockquote>
+      </div>
+    <div id="mycontent"  class="tab-pane fade">
+         <div class="row">
+               <div class="col-6">
+                <label class="lead">Trees</label>
+                <img src="./Images/trees-3822149__340.jpg" alt="tress" width="100%">
+                <blockquote class="lead">Trees give us many benefits. Trees are the green cover of the planet. Trees need water, sunshine and air to grow. The process of photosynthesis that occurs in trees, that helps them grow, uses oxygen and gives out carbon-dioxide. Thus, they contribute to the oxygen in the air that we need to breathe to stay alive. They also use up the carbon-dioxide that is present in the air, and thus prevent the accumulation of the greenhouse gas that leads to global warming and climate change.</blockquote>
+                </div>
+                 <div class="col-6">
+                <label class="lead">Mountains</label>
+                <img src="./Images/mountains-1412683__340.webp"" alt="mountains" width="100%">
+                <blockquote class="lead">Nature refers to the natural resources and natural surroundings. The life species in nature are interrelated and create balance in nature. They form a natural food chain through which energy is passed to all the species. The series of organisms in which each organism feeds on the one below it in the sequence is called the food chain in natural ecosystem. Food chain includes several plants, organisms, animals and other living species. This natural food chain is the source of energy for the forest species. The energy is passed from one creature to the other which helps them grow and survive.</blockquote>
+                 </div>
+            </div>
+    </div>
+    <div id="mycontact"  class="tab-pane fade text-center" >
+        <label class="lead text-warning">Address</label>
+        <address>
+            Written by <a href="mailto:webmaster@example.com">Vignesh k</a>.<br>
+            Visit us at:<br>
+            Example.com<br>
+            Thanjavur, TamilNadu<br>
+            India
+            </address>
+    </div>
 </section>
 <section class="footer">
 <div class="col-md-12 text-center bg-info">
